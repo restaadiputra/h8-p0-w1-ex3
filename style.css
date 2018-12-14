@@ -40,20 +40,26 @@ header.home {
 
 header.green-nav {
   background-color: #1abc9c;
-  height: 100px;
+  height: 90px;
   opacity: 0.7; 
 }
 
 header.silver-nav {
   background-color: #bdc3c7;
-  height: 100px;
+  height: 90px;
   opacity: 0.7;
 }
 
 header.blue-nav {
   background-color: #3498db;
-  height: 100px;
+  height: 90px;
   opacity: 0.7; 
+}
+
+header.black-nav {
+  background-color: #1d242c;
+  height: 90px;
+  opacity: 0.7;
 }
 
 header.orange-nav {
@@ -124,15 +130,17 @@ nav li:hover {
   box-shadow: 3px 3px 12px #888888;
 }
 
-/* HEADER END HERE */
-
+.up-1 {
+  z-index: 10;
+}
 
 
 /* CONTENT START HERE */
 .wrapper {
   margin: 0 auto;
   padding: 20px;
-  box-shadow: 1px 10px 14px #747474;
+  box-shadow: 1px 5px 14px #4b4b4b;
+  position: relative;
 }
 
 .wrapper:after {
