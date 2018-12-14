@@ -1,0 +1,514 @@
+/* Font Google */
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v12/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Merriweather Bold'), local('Merriweather-Bold'), url(https://fonts.gstatic.com/s/merriweather/v19/u-4n0qyriQwlOrhSvowK_l52xwNZWMf6.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', serif;
+}
+
+header.home {
+  background-image: url(./img/bg.jpg);
+  height: 650px;
+  /* opacity: 0.7; */
+}
+
+header.other {
+  background-color: #1abc9c;
+  height: 100px;
+  /* opacity: 0.7; */
+}
+
+header.distribute {
+  background-image: url(./img/bg-distribute.jpg);
+  height: 650px;
+  background-size: cover;
+  /* opacity: 0.7; */
+}
+
+
+/* HEADER START HERE */
+
+header h1 {
+  color: #ffffff;
+  text-align: left;
+  font-family: 'Merriweather', sans-serif;
+  font-size: 90px;
+  letter-spacing: 5px;
+  margin: 300px 0px 0px 0px;
+  padding: 0px 0px 0px 20px;
+}
+
+header h3 {
+  color: #ffffff;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  margin: 10px auto;
+  padding-left: 20px;
+}
+
+nav {
+  margin: 0;
+  padding: 5px 0px;
+  /* background-color: #0e5514;  */
+  /* opacity: 0.75; */
+}
+
+nav li {
+  font-family: 'Montserrat';
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  display: inline-block;
+  width: 90px;
+  font-weight: 600;
+  text-align: center;
+  padding: 20px;
+}
+
+nav li:hover {
+  color: #000;
+  background-color: #ecf0f1;
+  border-radius: 3px;
+  opacity: 0.75;
+  font-weight: bold;
+  box-shadow: 3px 3px 12px #888888;
+}
+
+/* HEADER END HERE */
+
+
+
+/* CONTENT START HERE */
+.wrapper {
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 1px 10px 14px #747474;
+}
+
+.wrapper:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.col-content-wide {
+  /* width: 1000px; */
+  margin: 70px auto;
+}
+
+.col-content-left {
+  float: left;
+  width: 50%;
+  padding: 1%;
+  margin: 1%;
+  margin-left: 10%
+}
+
+.col-content-right {
+  float: left;
+  width: 20%;
+  padding: 1%;
+  margin: 1%
+}
+
+.img-90 {
+  float: left;
+  clear: both;
+  width: 90%;
+  padding: 5%;
+  margin: 5% auto;
+}
+
+/* Button From Anchor */
+
+.btn-green {
+  box-shadow: 1px 1px 8px #888888;
+  border-radius: 3px;
+  color: #ecf0f1;
+  font-weight: 600;
+  background-color: #16a085;
+  text-align: center;
+}
+
+.btn-green:hover {
+  background-color: #27ae60;
+  box-shadow: 3px 3px 12px #888888;
+}
+
+.btn-grey {
+  box-shadow: 1px 1px 8px #888888;
+  border-radius: 3px;
+  color: #ecf0f1;
+  font-weight: 600;
+  background-color: #95a5a6;
+  text-align: center;
+}
+
+.btn-grey:hover {
+  background-color: #505050;
+  box-shadow: 3px 3px 12px #888888;
+  
+}
+
+.btn-red {
+  box-shadow: 1px 1px 8px #888888;
+  border-radius: 3px;
+  color: #ecf0f1;
+  font-weight: 600;
+  background-color: #df2933;
+  text-align: center;
+}
+
+.btn-red:hover {
+  background-color: #dd1822;
+  box-shadow: 3px 3px 12px #888888;
+  
+}
+
+.btn-90 {
+  float: left;
+  clear: both;
+  width: 90%;
+  padding: 5%;
+}
+
+.btn-70 {
+  float: left;
+  clear: both;
+  width: 70%;
+  padding: 5%;
+  margin: 2% 10%;
+}
+
+.btn-50 {
+  float: left;
+  clear: both;
+  width: 50%;
+  padding: 5%;
+  margin: 4% 20%;
+}
+
+/* COLOR BACKGROUND START */
+.green {
+  background-color: #1abc9c;
+}
+
+.blue {
+  background-color: #3498db;
+}
+
+.blue-old {
+  background-color: #2D7D9A;
+}
+
+.silver {
+  background-color: #bdc3c7;
+}
+
+.cloud {
+  background-color: #ecf0f1;
+}
+
+.red {
+  background-color: #df2933;
+}
+
+.purple {
+  background-color: #9b59b6;
+}
+
+.orange {
+  background-color: #F7630C;
+}
+
+.yellow {
+  background-color: #f1c40f;
+}
+
+.asphalt {
+  background-color: #1f2831;
+}
+/* COLOR BACKGROUND END */
+
+/* BACKGROUND IMAGE START */
+.bg-1 {
+  background-image: url(./img/bg-content-1.jpg);
+}
+
+.bg-2 {
+  background-image: url(./img/bg-content-2.png);
+}
+
+.bg-dis {
+  background-image: url(./img/bg-content-dis.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-dis2 {
+  background-image: url(./img/bg-content-dis-2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-size: contain; */
+}
+
+/* BACKGROUND IMAGE END */
+
+
+/* COLOR TEXT START */
+.white {
+  color: #ecf0f1;
+}
+
+.black {
+  color: #414141;
+}
+/* COLOR TEXT END */
+
+/* COLUMN DIVIDER START */
+.col-1 {
+  float: left;
+  width: 96%;
+  margin: 1%;
+  padding: 1%;
+}
+
+.col-2 {
+  float: left;
+  width: 46%;
+  margin: 1%;
+  padding: 1%;
+}
+
+.col-3 {
+  float: left;
+  width: 29.33%;
+  margin: 1%;
+  padding: 1%;
+}
+
+.col-4 {
+  float: left;
+  width: 21%;
+  margin: 1%;
+  padding: 1%;
+}
+
+.col-5 {
+  float: left;
+  width: 16%;
+  margin: 1%;
+  padding: 1%;
+}
+
+/* COLUMN DIVIDER END */
+
+
+.para-content {
+  text-align: justify;
+}
+
+
+
+/* IMAGE RESCALER START */
+
+.col-3 img {
+  height: 80px;
+  text-align: center;
+  margin: 0px auto;
+  display: block;
+}
+
+.img-90 {
+  display: block;
+  /* float: left; */
+  clear: both;
+  width: 90%;
+  padding: 5%;
+  margin: 5% auto;
+}
+
+/* IMAGE RESCALER END */
+
+form {
+  display: block;
+}
+
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-left: 110px;
+  
+}
+
+input[type="email"],
+input[type="text"] {
+  display: block;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border: 0;
+  background-color: #1d242c;
+  width: 60%;
+  color: #ffffff;
+}
+
+textarea {
+  display: block;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0;
+  background-color: #1d242c;
+  width: 63%;
+  color: #ffffff;
+}
+
+input[type="submit"] {
+  border: 0;
+}
+
+
+/* GLOBAL TAGS */
+
+footer {
+  background:  #06ad50;
+  color: #FFFFFF
+}
+
+
+footer {
+  background-color: #414141;
+  border-bottom: 1px solid grey;
+  height: 50px;
+}
+
+footer h5 {
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+  margin: auto;
+  height: 50px;
+  line-height: 50px
+}
+
+a {
+  text-decoration: none;
+}
+
+
+h2 { 
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Merriweather', sans-serif;
+}
+
+h3 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+p {
+  line-height: 1.5em;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: justify;
+}
+
+#small-contact {
+  margin: 0px;
+}
+
+
+
+.contact-list {
+  list-style: none;
+  text-align: center;
+  line-height: 3em;
+  padding: 10px;
+} 
+
+
+/* Armando add */
+
+.trans {
+  text-align: left;
+  color: black;
+  padding-bottom: 120px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.trans h1 {
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.trans p {
+  padding-right: 30px;
+  padding-bottom: 200px;
+  font-size: 17px;
+}
+
+img.track {
+  display: block;
+  height: 400px;
+  width: 400px;
+  margin: 0px auto;
+  box-shadow: 1px 1px 8px #888888;
+  border-radius: 10px;
+}
+
+.centered {
+  display: block;
+  text-align: center;
+}
+
+.guaran {
+  display: block;
+  height: 500px;
+  padding: auto;
+}
+
+.guaran h2 {
+  display: block;
+  margin-top: 250px;
+}
+
+.guaran p {
+  font-size: 25px;
+  font-weight: bold;
+}
